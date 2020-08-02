@@ -1,0 +1,151 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header{
+                
+        background-image: url("./asserts/bg.PNG");
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    
+    .url{
+        margin-top: 3%;
+        float: right;
+        margin-right: 5%;
+    }
+    .url li{
+        display: inline-block;
+        margin-left: 50px;
+        color: white;
+    }
+    .Website_name{
+        float: left;
+        color: white;
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+
+    .clear::after{
+        clear: both;
+        content: "";
+        display: block;  
+    }
+
+    .text-header{
+
+        font-size: 7rem;
+        font-weight: 700;
+        color: white;
+        margin: 0px 12%;
+        margin-top: 9%;
+        text-align: center;
+    }
+
+    /* Latest Work Section*/
+
+    .latest_work{
+        margin: 54px 5%;
+        margin-bottom: 0px;
+        text-align: center;
+        
+    }
+    .latest_work h2{
+        text-decoration: bold;
+        margin-bottom: 1%;
+        font-weight: 300px;
+        font-size: 45px;
+    }
+    .latest_work p{
+        font-size: 18px;
+        margin-bottom: 5%;
+
+    }
+
+    .box{
+        width: 50%;
+        float: left;
+    }
+    .box img{
+        width: 100%;
+        height: 100%;
+        border: 10px solid white;
+    }
+
+    .box-size{
+        margin:0px 5%;
+    }
+    .about_text{
+        margin-top: 6%;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-size-adjust: justify;
+    }
+    .about_text h2{
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+    .about_text p{
+        font-size: 25px;
+        color: #6C757D;
+    }
+    .about_img{
+        padding-left: 139px;
+        width: 46%;
+    }
+    .whowe{
+        text-align: center;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .box-width{
+        width: 33.33%;
+        float: left;
+        text-align: center;
+        padding: 30px;
+        font-size: 25px;
+        
+    }
+
+    .box-width p{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .Ser{
+        background-color: #FFC809;
+        height: 60vh;
+    }
+    .Ser h2{
+        padding-top: 62px;
+    }
+
+    .footer-box{
+        width: 33.33%;
+        float: left;
+        padding: 20px;
+        text-align: left;
+
+    }
+
+    .footer-box p{
+        padding-top: 10%;
+        padding-right: 12%;
+    }
+    footer{
+        background-color: #FFC809;
+        padding: 5%;
+    }
+    .copy{
+        padding-top: 5%;
+        text-align: center;
+        text-decoration: none;
+    }
